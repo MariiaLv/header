@@ -17,22 +17,19 @@ nav h1 {
    font-style: italic;
    position: absolute;
    top: 50px;
-   left: 200px;
-   margin: 0;
 
 }
  .logo {
     color: var(--main-color);
     font-size: 1.5rem; 
-     font-style: italic;
+    font-style: italic;
     display: flex;
-    place-content: space-between space-evenly;
-    flex-wrap: wrap;
-    align-items: inherit;
+    align-content: space-around;
     list-style-type: none;
     width: 600px;
-    text-align
-}
+    margin-left: 450px; 
+    margin-top: 200px;
+ }
 .info img {
     width: 50%;
     position: relative;
@@ -65,18 +62,19 @@ nav h1 {
 /*header is finished*/
 
 .inform {
-    background-image: url("../../image/street.jpg");
+    background-image: url("../image/street.jpg");
+    backgrounf-size: cover;
  max-width: 1200px;
   min-height: 80vh;
  margin-left: 70px;
 }
 .content-box {
-box-sizing: border-box;
-width: 40%;
-border: thin;
-background: rgba(88, 88, 85, 0.7);
-padding: 40px;
-margin: 40px;
+    box-sizing: border-box;
+    width: 40%;
+    border: thin;
+    background: rgba(88, 88, 85, 0.7);
+    padding: 40px;
+    margin: 40px;
 }
 .content-box h2 {
     color: white;
@@ -87,8 +85,8 @@ margin: 40px;
     font-size: 1 rem;
 }
 .information p {
-color: white;
-font-size: 1 rem;
+    color: white;
+    font-size: 1 rem;
 }
 /*content-box is finished*/
 .statistics {
@@ -123,21 +121,6 @@ font-size: 1 rem;
     color: rgb(0, 0, 0);
     text-align: center;    
 }
-.photoes {
-    margin-left: 10vh;
-}
-.photodracula {
-     width: 15%;
-}
-.photobremen {
-     width: 15%;
-}
-.photoport {
-    width: 27%; 
-}
-.photohotel {
-     width: 15%;
-}
 /*not ready*/
 .quote {
     background: rgb(202, 175, 196);
@@ -156,11 +139,11 @@ font-size: 1 rem;
 }
 .box {
     box-sizing: border-box;
-width: 55%;
-border: thin;
-background: transparent;
-padding: 40px;
-margin-left: 250px;
+    width: 55%;
+    border: thin;
+    background: transparent;
+    padding: 40px;
+    margin-left: 250px;
 }
 /*in process*/
 
