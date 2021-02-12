@@ -1,27 +1,37 @@
-body header {
+ body header{
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    min-height: 100vh;
     background: linear-gradient(90deg, darkslategrey, seagreen);
+}
+:root {
+    --main-color: hsl(0, 100%, 100%);
+    --accent-color: hsl(0, 12%, 5%);
+    scroll-behavior: smooth;
 }
 nav h1 {
    color: blueviolet;
    font-size: 3rem;
    font-weight: bold;
+   font-style: italic;
    position: absolute;
    top: 50px;
    left: 200px;
    margin: 0;
+
 }
-.logo {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    font-weight: bold;
-    list-style-type: none;
+ .logo {
+    color: var(--main-color);
+    font-size: 1.5rem; 
+     font-style: italic;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-   position: relative;
-   top: 50px;
-   margin: 0;  
+    place-content: space-between space-evenly;
+    flex-wrap: wrap;
+    align-items: inherit;
+    list-style-type: none;
+    width: 600px;
+    text-align
 }
 .info img {
     width: 50%;
@@ -31,7 +41,7 @@ nav h1 {
 
 }
 .info h1 {
-    color: white;
+    color: var(--main-color);
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
     font-weight: bold; 
@@ -42,7 +52,7 @@ nav h1 {
      top: 130px;
 }
 .info p {
-   color: white; 
+   color: var(--main-color); 
    font-family: 'Times New Roman', Times, serif;
    font-size: 2rem;
     font-weight:normal;
@@ -52,3 +62,104 @@ nav h1 {
      top: 330px;
      left: 800px;
 }
+/*header is finished*/
+
+.inform {
+    background-image: url("../../image/street.jpg");
+ max-width: 1200px;
+  min-height: 80vh;
+ margin-left: 70px;
+}
+.content-box {
+box-sizing: border-box;
+width: 40%;
+border: thin;
+background: rgba(88, 88, 85, 0.7);
+padding: 40px;
+margin: 40px;
+}
+.content-box h2 {
+    color: white;
+    font-size: 2rem;
+}
+.information h3 {
+    color: white;
+    font-size: 1 rem;
+}
+.information p {
+color: white;
+font-size: 1 rem;
+}
+/*content-box is finished*/
+.statistics {
+    background: rgb(0, 0, 0);
+    width: 1200px;
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+}
+.statistics thead {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.statistics tbody {
+    font-size: 3rem;
+    font-weight: bold;
+ text-align: center; 
+}
+.statistics tfoot {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center; 
+}
+/*not ready*/
+.nature h1 {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+.nature p {
+    color: rgb(0, 0, 0);
+    text-align: center;    
+}
+.photoes {
+    margin-left: 10vh;
+}
+.photodracula {
+     width: 15%;
+}
+.photobremen {
+     width: 15%;
+}
+.photoport {
+    width: 27%; 
+}
+.photohotel {
+     width: 15%;
+}
+/*not ready*/
+.quote {
+    background: rgb(202, 175, 196);
+}
+.quote img {
+    width: 10%;
+}
+.quote h1 {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: end;
+}
+.quote p {
+    font-size: 2rem;
+    font-style: italic;
+}
+.box {
+    box-sizing: border-box;
+width: 55%;
+border: thin;
+background: transparent;
+padding: 40px;
+margin-left: 250px;
+}
+
