@@ -31,11 +31,9 @@ nav h1 {
     margin-top: 200px;
  }
 .info img {
-    width: 50%;
     position: relative;
     top: 100px;
     height: 400px;
-
 }
 .info h1 {
     color: var(--main-color);
@@ -63,7 +61,7 @@ nav h1 {
 
 .inform {
     background-image: url("../image/street.jpg");
-    backgrounf-size: cover;
+    background-size: cover;
  max-width: 1200px;
   min-height: 80vh;
  margin-left: 70px;
@@ -80,11 +78,11 @@ nav h1 {
     color: white;
     font-size: 2rem;
 }
-.information h3 {
+.main_information h3 {
     color: white;
     font-size: 1 rem;
 }
-.information p {
+.main_information p {
     color: white;
     font-size: 1 rem;
 }
@@ -146,4 +144,58 @@ nav h1 {
     margin-left: 250px;
 }
 /*in process*/
+.blog {
+    background-color: rgb(164, 197, 216);
+}
+.blog h2 {
+    text-align: center;
+    font-weight: bold;
+}
+#articles {
+    display: flex;
+    justify-content: space-around;
+}
+.information {
+box-sizing: border-box;
+    width: 55%;
+    border: thin;
+    background-image: url("../image/boy.jpg");
+    background-size: cover;
+    padding: 40px;
+    margin-left: 100px;
+    width: 550px;
+    height: 600px;
+}
+.data {
+box-sizing: border-box;
+    width: 55%;
+    border: thin;
+    background-image: url("../image/gull.jpg");
+    background-size: cover;
+    padding: 40px;
+    width: 550px;
+    height: 600px;
+}
+/*do not ready*/
+#travel_tips {
+    text-align: center;
+    font-weight: bold;
+}
+.tips {
+    background-image: url("../image/sea.jpg");
+    background-size: cover;
+    color: black;
+    font-size: 2rem;
+}
+.gallery h1 {
+    font-size: 2rem;
+    font-style: italic;
+}
+.gallery p {
+    font-size: 2rem;
+    font-style: italic;
 
+}
+.gallery {
+     background-color: rgb(164, 197, 216);
+}
